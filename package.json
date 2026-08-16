@@ -1,0 +1,12 @@
+{
+  "name": "skills-md",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable agent skills.",
+  "scripts": {
+    "check": "node scripts/validate.mjs && node --test tests/*.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
