@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anti-Slop"
+  short_description: "Evidence-first code review across languages"
+  default_prompt: "Use $anti-slop to review this repository for low-evidence code and run supported native checks."

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "seen",
+  "displayName": "Seen",
+  "enforcement": "native",
+  "detection": {
+    "manifests": ["Seen.toml"],
+    "extensions": [".seen"]
+  },
+  "check": {
+    "argv": ["seen", "lint"],
+    "cwd": "project-root"
+  },
+  "guidance": "../languages/seen.md"
+}
+
